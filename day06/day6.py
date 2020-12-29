@@ -20,7 +20,7 @@ def get_mutual_ans(entry):
 
 
 # Part A
-# print(sum([get_count_for_group(entry) for entry in data]))
+print(sum([get_count_for_group(entry) for entry in data]))
 
 # Part B
 print(sum([get_mutual_ans(entry) for entry in data]))

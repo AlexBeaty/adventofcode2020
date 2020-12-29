@@ -1,4 +1,6 @@
 # --- Day 7: Handy Haversacks ---
+# Not my code
+
 import re
 from collections import defaultdict
 
@@ -30,5 +32,5 @@ def part2():
         return count
     return search('shiny gold' ) - 1
 
-# print(part1())
+print(part1())
 print(part2())

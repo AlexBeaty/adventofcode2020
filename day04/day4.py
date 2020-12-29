@@ -74,7 +74,7 @@ def check_fields_strong(entry):
 
 
 # part A
-# print(sum([check_fields_weak(entry) for entry in data]))
+print(sum([check_fields_weak(entry) for entry in data]))
 
 # part B
 print(sum([check_fields_strong(entry) for entry in data]))

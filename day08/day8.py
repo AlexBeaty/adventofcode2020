@@ -1,4 +1,5 @@
 # --- Day 8: Handheld Halting ---
+# Not my code
 
 with open('day8data.txt') as file:
     commands = [line.strip().split() for line in file]
@@ -40,13 +41,7 @@ def run_commands(commands):
             print('finished commands')
             break
     print(f'acc after: {acc}')
-    return(acc)
-
-
-# def read_command(command):
-#     global acc
-#     # print(command)
-    
+    return(acc)    
 
 
 def change_commands(commands):
@@ -61,14 +56,4 @@ def change_commands(commands):
     return(False)
         
 
-
-# Part A
-# print(commands[102])
-# commands[102][0] = 'nop'
-# print(commands[102])
-# run_commands(commands)
-# print(acc)
-
-# Part B
-# print(acc if change_commands(commands) else 'No valid command set found')
 change_commands(commands)

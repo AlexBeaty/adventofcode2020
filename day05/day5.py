@@ -38,7 +38,7 @@ def get_seat_id(entry):
 
 num_rows, num_seats = 127, 7
 # Part A
-# print(max([get_seat_id(entry) for entry in data]))
+print(max([get_seat_id(entry) for entry in data]))
 
 # Part B
 # A bit of a janky solution, I didn't really understand the question. When using this solution, the correct seat is the seat_id between the two printed seat_id numbers.
